@@ -1,0 +1,430 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Archivo', sans-serif;
+}
+.logo{
+	margin-top: 10px;
+	padding-left: 245px;
+	margin-bottom: 10px;
+}
+header>img{
+	padding-top: 25px;
+	height: 100%;
+	width: 100%;
+}
+nav {
+	position: absolute;	
+}
+nav ul.navbar{
+	width: 1000px;
+	margin-left: 230px;
+	background-color: #222931;
+	display: inline-block;
+}
+li.lihover{
+	display: inline-block;
+}
+a.ahover{
+	color: white;
+}
+li.lihover:hover, a.ahover:hover{
+	background-color: #ffe718;
+}
+li.lihover a.ahover, .dropbtn {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.lihover a.ahover:hover, .dropdown:hover .dropbtn {
+    background-color: #ffe718 ;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a.ahover {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a.ahover:hover {
+	background-color: #ffe718
+}
+.dropdown:hover .dropdown-content {
+	background-color: #222931;
+    display: block;
+}
+div.banner1{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left:  275px;
+    display: inline-block;
+
+}
+div.banner2 {
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 600px;
+    display: inline-block;
+
+}
+div.banner3{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left:  925px;
+    display: inline-block;
+}
+.left{
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.centered {
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.right{
+    position: absolute;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100;
+  right: 0;
+  margin-top: 50px;
+  height: 220px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+
+}.container {
+  position: relative;
+  width: 50%;
+}
+.dienstenhover:hover .overlay{
+    opacity: 1.5;
+    background-color: rgba(34,41,49,0.8);
+
+}
+.geschiedenishover:hover .overlay{
+    opacity: 1.5;
+    background-color: rgba(34,41,49,0.8);
+}
+.dealshover:hover .overlay{
+    opacity: 1.5;
+    background-color: rgba(34,41,49,0.8);
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.space{
+        margin-left: 200px;
+        padding-top: 50px;
+        font-size: 20px;
+}
+.yellowbar{
+    margin-top: 324px;
+    width: 100%;
+    height:150px;
+    background-color:#ffe718;
+    margin-bottom: 50px;
+}
+.yellowbar2{
+    margin-top: 100px;
+    width: 100%;
+    height:150px;
+    background-color:#ffe718;
+    margin-bottom: 50px;
+}
+.tekst1 , .tekst2 , .button{
+        display: inline;
+}
+.tekst2{
+        margin-left: 40px;
+}
+.button, .button2{
+
+    margin-left: 150px;
+}
+.button2{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2:hover{
+	background-color: #222931;
+	color: white;
+}
+div.footer > img{
+	width: 100%;
+	height: auto;
+}
+i{
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.handshake, .toolbox, .envelope{
+	margin-top: 185px;
+}
+.handshake{
+	margin-bottom: 50px;
+	height: 100px;
+	width: 300px;
+	margin-left: 275px;
+	position: absolute;
+	background-color: #ffe718;
+}
+.handshake > h2{
+	position: absolute;	
+	padding-top: 25px;
+	padding-left: 110px;
+}
+.handshake > h5{
+	position: absolute;
+	padding-top: 55px;
+	margin-left: 110px;
+}
+.handshake:hover{
+	background-color: #222931;
+	color: white;
+}
+.toolbox{
+	margin-bottom: 50px;
+	height: 100px;
+	width: 300px;
+	margin-left: 600px;
+	position: absolute;
+	background-color: #ffe718;
+}
+.toolbox > h2{
+	position: absolute;	
+	padding-top: 25px;
+	padding-left: 110px;
+}
+.toolbox> h5{
+	position: absolute;
+	padding-top: 55px;
+	margin-left: 110px;
+}
+.toolbox:hover{
+	background-color: #222931;
+	color: white;
+}
+.envelope{
+	margin-bottom: 50px;
+	height: 100px;
+	width: 300px;
+	margin-left: 925px;
+	position: absolute;
+	background-color: #ffe718;
+}
+.envelope > h2{
+	position: absolute;	
+	padding-top: 25px;
+	padding-left: 110px;
+}
+.envelope > h5{
+	position: absolute;
+	padding-top: 55px;
+	margin-left: 110px;
+}
+.envelope:hover{
+	background-color: #222931;
+	color: white;
+}
+div.line{
+	opacity: 0.5;
+	margin-top: 100px;
+	height: auto;
+	width: 950px;
+	margin-left: 275px;
+	border-bottom:  1px solid #222931;
+	margin-bottom: 50px;
+}
+div.over-ons{
+	position: absolute;
+	width: 475px;
+	height: auto;
+	margin-left: 275px;
+}
+div.contact-ons{
+	position: absolute;
+	width: 475px;
+	height: auto;
+	margin-left: 930px;
+}
+h2.contactje{
+	padding-left: 15px;
+}
+div.end{
+	padding-bottom: 305px;
+}
+img.img-end, img.number, img.mail{
+	position: absolute;
+	display: inline;
+	width: 50px;
+	height: 20px;
+}
+img.img-end, img.number, img.mail, p.adres, p.pnumber, p.pmail{
+	opacity: 0.6
+}
+img.number{
+	padding-top: 75px;
+}
+img.mail{
+	padding-top: 140px;
+}
+p.adres{
+	position: absolute;
+	padding-left: 50px;
+}
+p.pnumber{
+	position: absolute;
+	padding-left: 50px;
+	padding-top: 75px;
+}
+p.pmail{
+	position: absolute;
+	padding-left: 50px;
+	padding-top: 140px;
+}
+footer{
+	margin-top: 10px;
+	height: 50px;
+	background-color: #222931; 
+	color: white;
+}
+footer>p{
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+.home-diensten{
+	color: black;
+	font-size: 14px;
+	padding-top: 50px;
+
+}
+a.breadcrum{
+	color: black;
+	text-decoration: none;
+}
+.breadcrum{
+	display: inline-block;
+	text-decoration: none;
+}
+ul.breadcrum:hover{
+	background-color: none;
+}
+li.breadcrum:hover{
+	background-color: none;
+}
+a.breadcrum:hover{
+	background-color: none;
+}
+h1.diensten-h1{
+	padding-top: 50px;
+}
+div.diensten-pagina{
+	width: 950px;
+	margin-left: 300px;
+}
+div.dienstentext{
+	font-size: 18px;
+	padding-top: 25px;
+}
+span{
+	cursor: pointer;
+	color: #ffe718;
+}
+div.hover1{
+	font-size: 14px;
+	position: absolute;
+	height: 55;
+	width: 175px;
+	padding: 20px;
+	margin-left: 645px;
+	color: white;
+	background-color: grey;
+	display: none;
+}
+div.hover2{
+	font-size: 14px;
+	position: absolute;
+	height: 55;
+	width: 175px;
+	padding: 20px;
+	margin-left: 405px;
+	color: white;
+	background-color: grey;
+	display: none;
+}
+div.hover3{
+	font-size: 14px;
+	position: absolute;
+	height: 55;
+	width: 175px;
+	padding: 20px;
+	margin-left: 85px;
+	color: white;
+	background-color: grey;
+	display: none;
+}
+span:hover + .hover1{
+	cursor: pointer;
+	display: block;
+}
+span:hover + .hover2{
+	cursor: pointer;
+	display: block;
+}
+span:hover + .hover3{
+	cursor: pointer;
+	display: block;
+}
+.h2end{
+	margin-bottom: 50px;
+}
